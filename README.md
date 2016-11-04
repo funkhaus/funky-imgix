@@ -11,7 +11,7 @@ funky-imgix is a Wordpress plugin that lets you grab your Imgix images quickly a
     1. Navigate to your source details and note the `Domains` and `Secure URL Token` fields.
 1. **Wordpress**
     1. Drop the contents of this repo in `wp-content/plugins/funky-imgix` on your server. Activate the plugin through Wordpress.
-    1. Navigate to Settings->Imgix Settings and enter the `Imgix Domain` (the value of the 'Domains' field from earlier) `Secure URL Token`.
+    1. Navigate to Settings->Imgix Settings and enter the `Imgix Domain` (the value of the 'Domains' field from earlier) and the `Secure URL Token`.
 
 That's it! You can now use the new funky-imgix functions.
 
