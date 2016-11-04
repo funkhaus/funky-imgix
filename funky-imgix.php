@@ -69,15 +69,15 @@ Author URI: http://funkhaus.us
                 <table class="form-table">
 					<tbody>
 						<tr valign="top">
-							<th scope="row"><label for="funky_imgix_token">Secure Token:</label></th>
-							<td>
-								<input name="funky_imgix_token" type="text" title="" id="funky_imgix_token" value="<?php echo get_option('funky_imgix_token'); ?>">
-							</td>
-                        </tr>
-						<tr valign="top">
 							<th scope="row"><label for="funky_imgix_account">Imgix Domain:</label></th>
 							<td>
 								<input name="funky_imgix_account" type="text" title="" id="funky_imgix_account" value="<?php echo get_option('funky_imgix_account'); ?>">
+							</td>
+                        </tr>
+                        <tr valign="top">
+							<th scope="row"><label for="funky_imgix_token">Secure URL Token:</label></th>
+							<td>
+								<input name="funky_imgix_token" type="text" title="" id="funky_imgix_token" value="<?php echo get_option('funky_imgix_token'); ?>">
 							</td>
                         </tr>
 					</tbody>
