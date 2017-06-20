@@ -55,7 +55,7 @@ Author URI: http://funkhaus.us
     }
 
     function the_imgix_image( $parameters = '', $image_id = false, $image_size = 'thumbnail' ){
-        echo get_the_imgix_image( $parameters, $image_id, $image_size = 'thumbnail' );
+        echo get_the_imgix_image( $parameters, $image_id, $image_size );
     }
 
     function funky_imgix_settings_page(){
